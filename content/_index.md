@@ -1,6 +1,7 @@
 ---
 title: go-sqltemplate
 ---
+
 **A pure-Go library that rewrites a SQL template into a parameterized query, turning `{{name}}` variables into ordered `$1, $2, …` bind placeholders (with their values returned alongside) and substituting `{{.name}}` variables verbatim into the SQL text.** It performs only string and `text/template` work — it never touches a database or driver.
 
 - **Source:** [gomatic/go-sqltemplate](https://github.com/gomatic/go-sqltemplate)
